@@ -1,0 +1,25 @@
+/* Label */
+
+.label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+/* Input */
+
+.input {
+  width: 325px;
+  height: 44px;
+
+  background: #ecf1f7;
+  border-radius: 8px;
+  border: 0px;
+  outline: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}

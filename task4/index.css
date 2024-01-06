@@ -1,0 +1,86 @@
+.card {
+  padding: 4px 5px 4px 26px;
+  margin-bottom: 20px;
+  height: 100% !important;
+}
+.productName {
+    font-size: 16px;
+}
+.description {
+    font-size: 12px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card-edit {
+    font-size: 14px;
+    cursor: pointer;
+    background: #4caf50;
+    border: 2px solid #2d862d;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 16px;
+    color: #fff;
+    transition: background 0.3s, color 0.3s;
+}
+
+.card-remove {
+    font-size: 14px;
+    cursor: pointer;
+    background: #e74c3c;
+    border: 2px solid #c0392b;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 16px;
+    color: #fff;
+    transition: background 0.3s, color 0.3s;
+}
+
+.card-edit:hover,
+.card-remove:hover {
+    background: #2d862d; /* Темнозеленый цвет при наведении (для .card-edit) */
+}
+
+.card-remove:hover {
+    background: #c0392b; /* Темно-красный цвет при наведении (для .card-remove) */
+}
+
+.setupStartValue, #form-product .btn{
+  padding: 10px 24px;
+  background: #ffdd2d;
+  border-radius: 8px;
+  cursor: pointer;
+  float: right;
+}
+.setupStartValue:hover, #form-product .btn:hover, .card-edit:hover {
+  background: #fcc521;
+}
+.setupStartValue:active, #form-product .btn:active, .card-edit:active {
+  background: #fab619;
+}
+.setupStartValue:focus, #form-product .btn:focus, .card-edit:focus {
+  background: #ffdd2d;
+}
+
+#form-product input,
+#form-product textarea {
+    color: black;
+    background: #d9d9d9;
+    text-align: left;
+}
+
+.main-header {
+    max-width: 1440px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: auto;
+
+    padding: 0 30px;
+
+}

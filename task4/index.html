@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+          rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./normalize.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <script defer src="./index.js"></script>
+  <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous"
+  />
+  <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+          crossorigin="anonymous"
+  ></script>
+
+  <title>Админки карточек</title>
+</head>
+
+<body>
+<header class="header">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">DOOM</a>
+      <div class="setupStartValue"> Тестовые значения</div>
+    </div>
+  </nav>
+</header>
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <div class="text-center mt-3 mb-3">
+        Форма добавления карточки товара
+      </div>
+      <form id="form-product">
+        <div class="mb-3">
+          <input
+                  type="text"
+                  placeholder="Имя"
+                  class="form-control"
+                  name="productName"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+                  type="text"
+                  placeholder="Ссылка на изображение"
+                  class="form-control"
+                  name="hrefToIMG"
+          />
+        </div>
+        <div class="mb-3">
+              <textarea
+                      class="form-control"
+                      placeholder="Описание"
+                      name="description"
+                      rows="3"
+              ></textarea>
+        </div>
+        <div class="mb-3">
+          <input
+                  type="text"
+                  placeholder="Поставщик"
+                  class="form-control"
+                  name="provider"
+          />
+        </div>
+        <div class="btn">Добавить</div>
+        <input type="hidden" name="productCode" />
+      </form>
+    </div>
+    <div class="col-6">
+      <div class="text-center mt-3 mb-3">Витрина карточек</div>
+      <div class="showcaseOfCards">
+        <div class="row"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<header class="main-header">
+  <a href="https://github.com/Lornarysco?tab=repositories">Барсуков Игорь 6407</a>
+</header>
+</html>

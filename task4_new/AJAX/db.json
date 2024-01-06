@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": 0,
+    "name": "Барсуков Игорь",
+    "group": "6407"
+  },
+  "cards": [
+    {
+      "productName": "Пепе",
+      "hrefToIMG": "https://i.pinimg.com/236x/4f/e1/0d/4fe10d9381df7676050d2626d3bb4dc3.jpg",
+      "description": "Лягушонок Пепе (Pepe the Frog, Грустная лягушка, Sad Frog, Feels bad man) - популярная пикча с зеленой плачущей лягушкой. Мем означает грусть, хотя на оригинальных рисунках лягушонок был радостным.\n",
+      "provider": "Мемопедия",
+      "id": "0"
+    },
+    {
+      "productName": "Грустный пепе",
+      "hrefToIMG": "https://usagif.com/wp-content/uploads/2021/4fh5wi/pepefrg-13.gif",
+      "description":  "Пепе уронил еду.",
+      "provider": "Китайская партия",
+      "id": "1"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+.card {
+    padding: 4px 5px 4px 26px;
+    margin-bottom: 20px;
+    height: 100% !important;
+}
+.productName {
+    font-size: 16px;
+}
+.description {
+    font-size: 12px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-edit {
+    font-size: 14px;
+    cursor: pointer;
+    background: #4caf50;
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.card-edit:hover {
+    background: #45a049;
+}
+
+.card-remove {
+    font-size: 14px;
+    cursor: pointer;
+    background: #f44336;
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.card-remove:hover {
+    background: #d32f2f;
+}
+.main-header {
+    max-width: 1440px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: auto;
+
+    padding: 0 30px;
+
+}
+.setupStartValue, #form-product .btn{
+    padding: 10px 24px;
+    background: #ffdd2d;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
+}
+.setupStartValue:hover, #form-product .btn:hover, .card-edit:hover {
+    background: #fcc521;
+}
+.setupStartValue:active, #form-product .btn:active, .card-edit:active {
+    background: #fab619;
+}
+.setupStartValue:focus, #form-product .btn:focus, .card-edit:focus {
+    background: #ffdd2d;
+}
+#form-product input,
+#form-product textarea {
+    color: black;
+    background: #d9d9d9;
+}
+
+.card-placeholder .hrefToIMG, .card-placeholder .productId, .card-placeholder .description, .card-placeholder .provider, .card-placeholder .card-edit, .card-placeholder .card-remove, .author-name-placeholder {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+    background-image: linear-gradient(90deg, #ececec 0px, #f4f4f4 40px, #ececec 80px);
+    background-size: 250px;
+    animation: shine-loading-image 2s infinite ease-out;
+}
+.card-placeholder .productId, .card-placeholder .description, .card-placeholder .provider, .card-placeholder .card-edit, .card-placeholder .card-remove {
+    width: 100%;
+    height: 24px;
+}
+.author-name-placeholder {
+    width: 250px;
+    height: 40px;
+}
+.card-placeholder .hrefToIMG {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+@keyframes shine-loading-image {
+    0% {
+        background-position: -32px;
+    }
+    40%, 100% {
+        background-position: 208px;
+    }
+}
